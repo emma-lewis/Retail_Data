@@ -24,11 +24,13 @@ This repository showcases a retail cost analysis workflow using the UCI Online R
 
 What it shows:
 
-* **Cost Trends Over Time:** A line chart showing average modeled should-cost and average vendor quotes by date, highlighting price fluctuations and seasonal trends.
-* **Price Distribution:** A histogram and box plot of item prices and quantities to identify common price points, detect outliers, and understand overall variation.
-* **Should‑Cost vs. Vendor Quotes:** A scatter plot comparing modeled should-cost against actual vendor quotes, revealing discrepancies and potential cost‑saving opportunities.
+* **Average Quote Variance:** For each SKU, this bar chart depicts the percentage difference between each vendor’s quoted price and the modeled should‑cost. It highlights where vendor quotes exceed or fall below cost estimates—allowing the user to prioritize negotiation or alternative sourcing for maximum savings.
 
- * `MyTableauDashboard.twbx` – packaged Tableau workbook
+* **Cost Driver Waterfall:** This waterfall chart breaks down a selected SKU’s total cost into component steps—starting from the base should‑cost and then adding material, labor, packaging, and overhead. It clarifies which cost elements drive expenses, guiding targeted cost‑reduction efforts.
+
+* **Pareto Over‑Cost Impact:** A Pareto chart of the top 10 SKUs ranked by their total dollar over‑cost (vendor quote minus should‑cost), with a cumulative line illustrating each SKU’s share of excess spend. This view applies the 80/20 principle to pinpoint the few SKUs that account for the majority of cost overruns.
+
+`MyTableauDashboard.twbx` – packaged Tableau workbook
 
 View the fully interactive dashboard here:
 https://emma-lewis.github.io/Retail_Data/
