@@ -32,7 +32,7 @@ What it shows:
 
 How to acces:
 
-`[MyTableauDashboard.twbx]` – packaged Tableau workbook
+`Retail_Data.twbx` – packaged Tableau workbook
 
 View the fully interactive dashboard here:
 https://emma-lewis.github.io/Retail_Data/
