@@ -42,8 +42,8 @@ https://emma-lewis.github.io/Retail_Data/
 A reproducible analysis workflow that:
 
 1. **Cleans and transforms** raw retail transaction data using Python.
-2. **Calculates actionable cost saving insights**, comparing vendor quotes against modeled should‑costs.
-3. **Visualizes** results in an interactive Tableau dashboard embedded above.
+2. **Identifies actionable cost-saving opportunities** by comparing vendor quotes against modeled should‑costs.
+3. **Visualizes** results in an interactive Tableau dashboard for data-driven decision making.
 
 ## Data Citation
 
