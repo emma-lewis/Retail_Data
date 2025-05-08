@@ -18,9 +18,9 @@ This repository showcases a retail cost analysis pipeline built around the UCI O
 * **Processed\_Retail\_Data.csv**
   The cleaned and enriched CSV featuring aggregated cost calculations and data quality flags.
 
-![Dashboard Preview](tableau_dashboard/preview.png)
+## Tableau Dashboard
 
-## Full Live Embed
+![Dashboard Preview](tableau_dashboard/preview.png)
 
 View the fully interactive dashboard here:
 https://emma-lewis.github.io/Retail_Data/
