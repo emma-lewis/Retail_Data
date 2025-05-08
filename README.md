@@ -20,8 +20,7 @@ This repository showcases a retail cost analysis pipeline built around the UCI O
 
 * **tableau\_dashboard/**
 
-  * `MyTableauDashboard.twbx` – a packaged Tableau workbook with interactive cost-analysis dashboards.
-  * `preview.png` – a static snapshot of the primary dashboard view.
+![Dashboard Preview](tableau_dashboard/preview.png)
 
 ## Full Live Embed
 
