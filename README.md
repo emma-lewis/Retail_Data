@@ -18,8 +18,6 @@ This repository showcases a retail cost analysis pipeline built around the UCI O
 * **Processed\_Retail\_Data.csv**
   The cleaned and enriched CSV featuring aggregated cost calculations and data quality flags.
 
-* **tableau\_dashboard/**
-
 ![Dashboard Preview](tableau_dashboard/preview.png)
 
 ## Full Live Embed
