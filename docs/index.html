@@ -4,28 +4,21 @@
   <meta charset="UTF-8"/>
   <title>Retail Data Dashboard</title>
   <style>
-    /* make sure it takes up the full viewport */
-    .tableauPlaceholder {
-      width: 100%;
-      height: 800px;
-    }
+    .tableauPlaceholder { width: 100%; height: 800px; }
   </style>
 </head>
 <body>
-  <div class="tableauPlaceholder" id="tableauViz"></div>
+  <div id="tableauViz" class="tableauPlaceholder"></div>
 
-  <!-- load the Tableau JS API -->
+  <!-- Tableau JS API -->
   <script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
   <script>
-    // when the API is ready, instantiate the viz
     const containerDiv = document.getElementById("tableauViz");
-    const url = "https://public.tableau.com/views/6GWJXZMFT"; 
+    const url = "https://public.tableau.com/views/Retail_Data_17466580687940/Dashboard1?embed=true&:language=en-US";
     const options = {
       hideTabs:    true,
       hideToolbar: false,
-      onFirstInteractive: function () {
-        console.log("Tableau Viz has finished loading.");
-      }
+      onFirstInteractive: () => console.log("Dashboard loaded.")
     };
     new tableau.Viz(containerDiv, url, options);
   </script>
