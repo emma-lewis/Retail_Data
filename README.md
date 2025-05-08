@@ -24,11 +24,11 @@ This repository showcases a retail cost analysis workflow using the UCI Online R
 
 What it shows:
 
-* **Average Quote Variance:** For each SKU, this bar chart depicts the percentage difference between each vendor’s quoted price and the modeled should‑cost. It highlights where vendor quotes exceed or fall below cost estimates—allowing the user to prioritize negotiation or alternative sourcing for maximum savings.
+* **Average Quote Variance:** Bar chart displaying the percentage difference between each vendor’s quoted price and the modeled should‑cost for every SKU. Highlights where vendor quotes exceed or fall below cost estimates—allowing the user to prioritize negotiation or alternative sourcing for maximum savings.
 
-* **Cost Driver Waterfall:** This waterfall chart breaks down a selected SKU’s total cost into component steps—starting from the base should‑cost and then adding material, labor, packaging, and overhead. It clarifies which cost elements drive expenses, guiding targeted cost‑reduction efforts.
+* **Cost Driver Waterfall:** Waterfall chart breaking down a selected SKU’s total cost into component steps—starting from the base should‑cost and then adding material, labor, packaging, and overhead. It exposes the largest cost driving components, guiding targeted cost‑reduction efforts.
 
-* **Pareto Over‑Cost Impact:** A Pareto chart of the top 10 SKUs ranked by their total dollar over‑cost (vendor quote minus should‑cost), with a cumulative line illustrating each SKU’s share of excess spend. This view applies the 80/20 principle to pinpoint the few SKUs that account for the majority of cost overruns.
+* **Pareto Over‑Cost Impact:** Pareto chart of the top 10 SKUs ranked by their total dollar over‑cost (vendor quote minus should‑cost), with a cumulative line illustrating each SKU’s share of excess spend. Applies the 80/20 principle to pinpoint the few SKUs responsible for the majority of excess spend.
 
 `MyTableauDashboard.twbx` – packaged Tableau workbook
 
