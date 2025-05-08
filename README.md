@@ -9,7 +9,7 @@ This repository showcases a retail cost analysis workflow using the UCI Online R
 
   1. Loads and cleans the raw `Online_Retail.xlsx` dataset.
   2. Standardizes records and handles missing or inconsistent entries.
-  3. Calculates key cost metrics (e.g., calculated “should‑cost” vs. vendor quotes).
+  3. Calculates key cost metrics (e.g., modeled “should‑cost” vs. vendor quotes).
   4. Outputs the transformed data as `Processed_Retail_Data.csv`.
 
 * **Online\_Retail.xlsx**
@@ -35,6 +35,6 @@ A reproducible pipeline that:
 2. **Calculates actionable cost insights**, comparing vendor quotes against modeled should‑costs.
 3. **Visualizes** results in an interactive Tableau dashboard embedded above.
 
-Data Citation
+## Data Citation
 
-Chen, D. (2015). Online Retail [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5BW33.
+Chen, D. (2015). *Online Retail* [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5BW33.
