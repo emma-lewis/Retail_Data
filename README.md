@@ -26,9 +26,11 @@ What it shows:
 
 * **Average Quote Variance:** Bar chart displaying the percentage difference between each vendor’s quoted price and the modeled should‑cost for every SKU. Highlights where vendor quotes exceed or fall below cost estimates—allowing the user to prioritize negotiation or alternative sourcing for maximum savings.
 
-* **Cost Driver Waterfall:** Waterfall chart breaking down a selected SKU’s total cost into component steps—starting from the base should‑cost and then adding material, labor, packaging, and overhead. It exposes the largest cost driving components, guiding targeted cost‑reduction efforts.
+* **Cost Driver Waterfall:** Waterfall chart breaking down a selected SKU’s total cost into component steps—starting from the base should‑cost and then adding material, labor, packaging, and overhead. Exposes the largest cost driving components, guiding targeted cost‑reduction efforts.
 
 * **Pareto Over‑Cost Impact:** Pareto chart of the top 10 SKUs ranked by their total dollar over‑cost (vendor quote minus should‑cost), with a cumulative line illustrating each SKU’s share of excess spend. Applies the 80/20 principle to pinpoint the few SKUs responsible for the majority of excess spend.
+
+How to acces:
 
 `MyTableauDashboard.twbx` – packaged Tableau workbook
 
@@ -37,10 +39,10 @@ https://emma-lewis.github.io/Retail_Data/
 
 ## Summary
 
-A reproducible workflow that:
+A reproducible analysis workflow that:
 
 1. **Cleans and transforms** raw retail transaction data using Python.
-2. **Calculates actionable cost insights**, comparing vendor quotes against modeled should‑costs.
+2. **Calculates actionable cost saving insights**, comparing vendor quotes against modeled should‑costs.
 3. **Visualizes** results in an interactive Tableau dashboard embedded above.
 
 ## Data Citation
