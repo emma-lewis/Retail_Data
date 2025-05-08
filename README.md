@@ -1,4 +1,4 @@
-# Retail Data Cost Analysis Pipeline
+# Retail Data Cost Analysis
 
 This repository showcases a retail cost analysis workflow using the UCI Online Retail dataset. It combines a Python data processing script with an embedded Tableau dashboard to provide insights into product and vendor cost metrics.
 
