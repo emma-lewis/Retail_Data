@@ -22,6 +22,12 @@ This repository showcases a retail cost analysis workflow using the UCI Online R
 
 ![Dashboard Preview](tableau_dashboard/preview.png)
 
+ * What it shows:
+
+* **Cost Trends Over Time:** A line chart showing average modeled should-cost and average vendor quotes by date, highlighting price fluctuations and seasonal trends.
+* **Price Distribution:** A histogram and box plot of item prices and quantities to identify common price points, detect outliers, and understand overall variation.
+* **Should‑Cost vs. Vendor Quotes:** A scatter plot comparing modeled should-cost against actual vendor quotes, revealing discrepancies and potential cost‑saving opportunities.
+
  * `MyTableauDashboard.twbx` – packaged Tableau workbook
 
 View the fully interactive dashboard here:
