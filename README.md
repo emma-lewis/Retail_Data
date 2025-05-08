@@ -22,7 +22,7 @@ This repository showcases a retail cost analysis workflow using the UCI Online R
 
 ![Dashboard Preview](tableau_dashboard/preview.png)
 
-MyTableauDashboard.twbx – packaged Tableau workbook
+ * `MyTableauDashboard.twbx` – packaged Tableau workbook
 
 View the fully interactive dashboard here:
 https://emma-lewis.github.io/Retail_Data/
