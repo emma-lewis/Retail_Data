@@ -29,7 +29,7 @@ https://emma-lewis.github.io/Retail_Data/
 
 ## Summary
 
-A reproducible pipeline that:
+A reproducible workflow that:
 
 1. **Cleans and transforms** raw retail transaction data using Python.
 2. **Calculates actionable cost insights**, comparing vendor quotes against modeled should‑costs.
