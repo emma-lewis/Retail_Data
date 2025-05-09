@@ -1,6 +1,6 @@
 # Retail Data Cost Analysis
 
-This repository showcases a retail cost analysis workflow using the UCI Online Retail dataset. It combines a Python data processing script with an embedded Tableau dashboard to provide insights into product and vendor cost metrics.
+This repository showcases a retail cost analysis workflow using the UCI Online Retail dataset. It combines a Python data processing script with an embedded Tableau dashboard and a margin recovery script to provide insights into product and vendor cost metrics.
 
 ## Project Structure
 
@@ -12,6 +12,16 @@ This repository showcases a retail cost analysis workflow using the UCI Online R
   3. Calculates key cost metrics (e.g., modeled “should‑cost” vs. vendor quotes).
   4. Outputs the transformed data as `Processed_Retail_Data.csv`.
 
+* **calculate\_margin\_recovery.py**
+  A Python script that:
+
+  1. Loads the cleaned `Processed_Retail_Data.csv` file.
+  2. Computes per‑unit “should\_cost” by summing component costs.
+  3. Extracts per‑unit quoted cost from vendor columns.
+  4. Calculates total should‑cost, total quoted cost, and total savings (cost difference × quantity).
+  5. Expresses the cost difference as a margin‑recovery percentage.
+  6. Prints results to the console for quick verification.
+ 
 * **Online\_Retail.xlsx**
   The original UCI Online Retail transactions dataset, containing order-level details for product purchases.
 
